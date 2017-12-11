@@ -30,6 +30,11 @@ public class LivingThing {
         this.dead = dead;
     }
 
+    public void setAttack(int attack){
+        this.attack = attack;
+    }
+
+    public int getAttack() { return attack; }
 
     public LivingThing (String name, int maximumHP, int attack) {
         this.name = name;
